@@ -1,0 +1,13 @@
+;
+; BIND data file for purple.cow
+;
+$TTL	604800
+@	IN	SOA	ns.purple.cow. root.purple.cow. (
+			      3		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@	IN	NS	ns.purple.cow.
+ns	IN	A	10.0.0.1

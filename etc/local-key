@@ -1,0 +1,4 @@
+key "local-key" {
+	algorithm hmac-md5;
+	secret "GIw1g5pldGZyJInJ0BQn6PyUckIDYNYz4R4nCFj7C5a+RIyDuFe+h92P yBdMnOxV3tL1MR967+hudwEX0yo93w==";
+};
